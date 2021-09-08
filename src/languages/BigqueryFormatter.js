@@ -501,7 +501,7 @@ const reservedNewlineWords = [
   'NATURAL JOIN',
 ];
 
-export default class PostgreSqlFormatter extends Formatter {
+export default class BigQuerySQLFormatter extends Formatter {
   tokenizer() {
     return new Tokenizer({
       reservedWords,

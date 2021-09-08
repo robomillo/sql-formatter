@@ -9,7 +9,8 @@ export interface FormatOptions {
     | 'redshift'
     | 'spark'
     | 'sql'
-    | 'tsql';
+    | 'tsql'
+    | 'bq';
   params?: { [x: string]: string } | string[];
   indent?: string;
   uppercase?: boolean;
